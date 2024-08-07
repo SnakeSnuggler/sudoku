@@ -47,7 +47,7 @@ class SudokuBoard:
             
 if __name__ == "__main__":
 	test_board = SudokuBoard()
-	test_board.board[3,4] = 5
+	test_board.array[3,4] = 5
 	print(test_board.check_row(5, 3))
 	print(test_board.check_row(5, 4))
 
